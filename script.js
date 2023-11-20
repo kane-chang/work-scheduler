@@ -1,6 +1,17 @@
 // TODO create HTML variable selectors
+var currentDayEl = $('#currentDay');
+var timeContainer = $('.container');
+
 
 // TODO function to get current date 
+function displayDate() {
+    var currentDay = dayjs().format('dddd[,] DD MMM YYYY');
+    currentDayEl.text(currentDay);
+}
+
+displayDate()
+setInterval(displayDate, 1000)
+
 
 // TODO create timeblocks
 
