@@ -14,6 +14,13 @@ setInterval(displayDate, 1000)
 
 
 // TODO create timeblocks
+// var newTimeBlock = document.createElement("div");
+// newTimeBlock.textContent = "hi";
+// // newTimeBlock.setAttribute("type", "text")
+// newTimeBlock.setAttribute("class", "time-block row");
+// timeContainer.append(newTimeBlock);
+// console.log(newTimeBlock);
+
 
 // TODO verify timeblock based on current time
 
